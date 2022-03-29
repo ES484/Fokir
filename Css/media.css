@@ -1,0 +1,355 @@
+@media screen and (min-width: 0px) and (max-width: 600px)
+{
+    .navbar
+    {
+        position: relative;
+        background-color: #000;
+    }
+    .navbar .logo
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .links
+    {
+        width: 100%
+    }
+    .navbar .links ul li
+    {
+       width: 100%;
+       text-align: center;
+       background-color:#000;
+       border: 1px solid #fff;
+       padding: 10px;
+       border-radius: 2%;
+    }
+    .navbar .links ul li a
+    {
+        color: #fff;
+    }
+    .layer
+    {
+        align-content:flex-end;
+        padding-bottom: 20px;
+    }
+    .header .header-content
+    {
+        font-size: 120%;
+    }
+    .header .header-content h1
+    {
+        font-size: 150%;
+        font-weight: 700;
+    }
+
+    .about
+    {
+        flex-flow: column;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .profileBorder
+    {
+        width: 80%;
+        border: none;
+    }
+    .imgLayer
+    {
+        top: 0;
+        left: 0;
+    }
+    .about .hello
+    {
+        width: 85%;
+        padding-top: 30px;
+    }
+    .hello .info
+    {
+        flex-wrap: wrap;
+    }
+    .hello .info ul
+    {
+        width: 80%;
+    }
+    .hello .btn
+    {
+        width: 80%;
+    }
+    .services .ServiceContainer .ServiceCaption h2
+    {
+        font-size: 150%;
+        text-transform: capitalize
+    }
+    .services .ServiceContainer .ServiceTypes .service
+    {
+        width: 100%;
+    }
+    .portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace
+    {
+        width: 100%;
+    }
+    .countDetails .count
+    {
+        width: 100%;
+    }
+
+    .testimonials .client
+    {
+        width: 90%;
+    }
+    .testimonials .client img
+    {
+        width: 30%;
+        top: 10%;
+        left: 20%;
+    }
+    .testimonials .client .clientInfo
+    {
+        top: 45%;
+        left: 5%;
+    }
+    .blog .blogContainer .blogSections .blogContent
+    {
+        width: 90%;
+        background-color: #fff;
+    }
+    .contact .contactForm form
+    {
+        justify-content: center;
+    }
+    .contact .contactForm form .inp
+    {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) 
+{
+    .navbar
+    {
+        position: relative;
+        background-color: #000;
+    }
+    .navbar .logo
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar .links
+    {
+        width: 100%
+    }
+    .navbar .links ul li
+    {
+       width: 100%;
+       text-align: center;
+       background-color:#000;
+       border: 1px solid #fff;
+       padding: 10px;
+       border-radius: 2%;
+    }
+    .layer
+    {
+        align-content:flex-end;
+        padding-bottom: 20px;
+    }
+    .navbar .links ul li a
+    {
+        color: #fff;
+    }
+    .header .header-content
+    {
+        font-size: 130%;
+    }
+    .header .header-content h1
+    {
+        font-size: 150%;
+        font-weight: 700;
+    }
+
+    .about
+    {
+        flex-flow: column;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .profileBorder
+    {
+        width: 80%;
+        border: none;
+    }
+    .imgLayer
+    {
+        top: 0;
+        left: 0;
+    }
+    .about .hello
+    {
+        width: 75%;
+        padding-top: 30px;
+    }
+    .hello .info
+    {
+        flex-wrap: wrap;
+    }
+    .hello .info ul
+    {
+        width: 80%;
+    }
+    .hello .btn
+    {
+        width: 60%;
+    }
+    .services .ServiceContainer .ServiceTypes .service
+    {
+        width: 100%;
+    }
+
+    .portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace
+    {
+        width: 100%;
+    }
+    .countDetails .count
+    {
+        width: 100%;
+    }
+    .contact .contactForm form
+    {
+        justify-content: center;
+    }
+    .contact .contactForm form .inp
+    {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 993px) 
+{
+    .navbar .logo
+    {
+        width: 20%;
+    }
+    .navbar .links
+    {
+        width: 70%;
+    }
+    .header .header-content
+    {
+        font-size: 150%;
+    }
+    .header .header-content h1
+    {
+        font-size: 200%;
+        font-weight: 700;
+    }
+    .profileBorder
+    {
+        border: none;
+        width: 40%;
+    }
+    .imgLayer
+    {
+        top: 0;
+        left: 0;
+    }
+    .about .hello
+    {
+        width: 60%;
+    }
+    .hello .btn
+    {
+        width: 70%;
+    }
+    .services .ServiceContainer .ServiceTypes .service
+    {
+        width: 50%;
+    }
+    .portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace
+    {
+        width: 48%;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) 
+{
+    .navbar .logo
+    {
+        width: 20%;
+    }
+    .navbar .links
+    {
+        width: 60%;
+    }
+    .header .header-content
+    {
+        font-size: 160%;
+    }
+    .header .header-content h1
+    {
+        font-size: 200%;
+        font-weight: 800;
+    }
+    .profileBorder
+    {
+        width: 30%;
+    }
+    .imgLayer
+    {
+        top: 30px;
+        left: 20px;
+    }
+    .about .hello
+    {
+        width: 50%;
+    }
+    .hello .btn
+    {
+        width: 65%;
+    }
+    .services .ServiceContainer .ServiceTypes .service
+    {
+        width: 25%;
+    }
+}
+@media screen and (min-width: 1201px)
+{
+    .navbar .logo
+    {
+        width: 30%
+    }
+    .navbar .links
+    {
+        width: 40%
+    }
+    .header .header-content h4
+    {
+        font-weight: 400;
+    } 
+    .header .header-content
+    {
+        font-size: 160%;
+    }
+    .header .header-content h1
+    {
+        font-size: 200%;
+        font-weight: 800;
+    }
+    .profileBorder
+    {
+        width: 25%
+    }
+    .imgLayer
+    {
+        top: 30px;
+        left: 20px;
+    }
+    .about .hello
+    {
+        width: 40%
+    }
+    .hello .btn
+    {
+        width: 50%;
+    }
+    .services .ServiceContainer .ServiceTypes .service
+    {
+        width: 25%;
+    }
+}

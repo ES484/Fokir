@@ -1,0 +1,552 @@
+/*style for all elements*/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*grouping style identical for some elements*/
+.borderContainer,
+.layer,
+.imgLayer,
+.imgLayer img,
+.imgLayer .icons,
+.services .ServiceContainer .ServiceCaption,
+.portfolio .portfolioContainer .ServiceCaption,
+.portfolio .portfolioContainer .portfolioList,
+.portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace .portfolioImageLayer .portfolioImage .portfolioImageLayer1,
+.portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace .portfolioImageLayer .portfolioImage
+ img,
+.countDetails ,
+.testimonial .ourClients,
+.blog .blogContainer .blogHeading,
+.blog .blogContainer .blogSections .blogContent img,
+.blog .blogContainer .blogSections .blogContent iframe,
+.contact .contactHeading,
+.contact .contactForm form .sub,
+.contact .contactForm form .msg
+{
+    width: 100%;
+}
+.brdr,
+.brdr::after,
+.brdr::before,
+.hello .btn button,
+.contact .contactForm form .btnSub
+{
+background-color: #FF305B;
+}
+.borderContainer,
+.imgLayer,
+.portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace .portfolioImageLayer,
+.testimonial .client
+{
+    position: relative
+}
+.navbar .logo,
+.navbar .links ul li a:hover,
+.header .header-content h1,
+.about .hello h2 span,
+.portfolio .portfolioContainer .portfolioList button span,
+.blog .blogContainer .blogSections .blogContent h3:hover,
+.blog .blogContainer .blogSections .blogContent h4:hover,
+.blog .blogContainer .blogSections .blogContent h3:hover a,
+.blog .blogContainer .blogSections .blogContent h4:hover a,
+.footer .copyRights p a
+{
+    color: #FF305B
+}
+.brdr::after,
+.brdr::before,
+.imgLayer .icons,
+.portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace .portfolioImageLayer .portfolioImage .portfolioImageLayer1,
+.testimonial .client img,
+.testimonial .client .clientInfo
+{
+position: absolute
+}
+
+.navbar,
+.navbar .links ul,
+.layer,
+.about,
+.services .ServiceContainer,
+.services .ServiceContainer .ServiceTypes,
+.portfolio .portfolioContainer,
+.portfolio .portfolioContainer  .portfolioImages,
+.countDetails,
+ .testimonial,
+.blog .blogContainer,
+.blog .blogContainer .blogSections,
+.contact,
+.contact .contactForm form
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hello .info,
+.hello .btn
+{
+    display: flex;
+}
+.navbar .links ul li a,
+.hello .info ul li a,
+.hello .btn button a,
+.testimonial .client .clientInfo a,
+.blog .blogContainer .blogSections .blogContent h3 a,
+.blog .blogContainer .blogSections .blogContent h4 a,
+.footer .copyRights p a
+{
+    text-decoration: none;
+}
+.navbar,
+.header .header-content h4,
+.services .ServiceContainer .ServiceCaption h2,
+.portfolio .portfolioContainer h2,
+.countDetails .count,
+.testimonial .ourClients,
+.blogSections .blogContent h3,
+.blog .blogContainer .blogHeading,
+.contact .contactHeading,
+.footer
+{
+     text-transform: capitalize
+}
+.navbar,
+.hello .btn,
+.portfolio .portfolioContainer  .portfolioImages,
+.blog .blogContainer .blogSections,
+.contact .contactForm form
+{
+    justify-content:space-between
+}
+.navbar .links ul,
+.services .ServiceContainer .ServiceTypes,
+.countDetails
+{
+    justify-content: space-around
+}
+.about,
+.hello .info
+{
+    justify-content: space-evenly
+}
+.navbar .links ul,
+.hello .info ul
+{
+    list-style-type: none
+}
+.header .header-content h1,
+.about .hello h2,
+.blogSections .blogContent h4,
+.services .ServiceContainer .ServiceTypes .service h3,
+.portfolio .portfolioContainer .portfolioList button,
+.contact .contactForm form .btnSub
+{
+    text-transform: uppercase
+}
+.layer,
+.imgLayer,
+.imgLayer img,
+.imgLayer .icons,
+.portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace .portfolioImageLayer .portfolioImage .portfolioImageLayer1
+{
+height: 100%;
+}
+.layer,
+.services .ServiceContainer,
+.portfolio .portfolioContainer,
+ .testimonial,
+.blog .blogContainer,
+.contact
+{
+justify-content: center;
+}
+.header .header-content,
+.services .ServiceContainer .ServiceCaption,
+.services .ServiceContainer .ServiceTypes .service,
+.portfolio .portfolioContainer .ServiceCaption,
+.portfolio .portfolioContainer .portfolioList,
+.countDetails .count,
+ .testimonial .ourClients,
+.blog .blogContainer .blogHeading,
+.contact .contactHeading,
+.footer
+{
+    text-align: center
+}
+.navbar .links ul li a,
+.header .header-content,
+.hello .btn button a,
+.contact .contactForm form .btnSub,
+.footer
+{
+    color: #fff;
+}
+.about,
+.hello .info ul li a,
+.services .ServiceContainer .ServiceTypes .service p,
+.countDetails .count h6,
+.testimonial .client .clientInfo p,
+.blog .blogContainer .blogSections .blogContent h5,
+.blog .blogContainer .blogSections .blogContent p
+{
+color: #555555
+}
+.profileBorder,
+.imgLayer,
+.imgLayer .icons
+{
+border-radius: 2%
+}
+
+/*body style*/
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/*div for 3 horizontal lines used for divs decoration*/
+
+.brdr
+{
+    width: 15%;
+    height: 1px;
+    margin: 20px auto;
+}
+.brdr::after
+{
+    content: "";
+    width: 5%;
+    height: 1px;
+    top: 60%;
+    left: 47%;
+}
+.brdr::before
+{
+    content: "";
+    width: 5%;
+    height: 1px;
+    bottom: 60%;
+    left: 47%;
+}
+
+/*navbar style*/
+.navbar
+{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    background-color:rgba(0, 0, 0, .8);
+    padding: 15px 30px
+}
+
+/*header style*/
+.header
+{
+   background-image: url(../images/slider-01.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh   
+}
+/*layer that cover header to give transparent look*/
+.layer
+{
+    background-color:rgba(0, 0, 0, 0.8);
+    align-content: center;
+}
+
+/*About Style*/
+.about
+{
+    padding: 30px 0
+}
+.profileBorder
+{
+    border: 8px solid #555555
+}
+.imgLayer
+{
+    overflow: hidden;
+}
+
+.imgLayer .icons
+{
+    background-color: rgba(133, 121, 121, 0.753);
+    top: 100%;
+    left: 0;
+    transition: all 3s
+}
+.imgLayer:hover .icons
+{
+    top: 0%
+}
+
+/*About right part style*/
+.about .hello h2
+{
+    color: #333333;
+    font-size: 180%;
+}
+
+.about .hello p
+{
+    padding: 15px;
+    border-bottom: 1px dashed;
+    line-height: 150%;
+    font-size: 108;
+}
+.hello .info
+{
+    padding-top: 10px
+}
+.hello .info ul
+{
+    width: 60%
+}
+.hello .info ul li
+{
+    padding: 10px 0;
+}
+.hello .info ul li span
+{
+    font-weight: 700;
+    color: #000;
+}
+
+.hello .btn button
+{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5%;
+    font-size: 110%;
+}
+
+.hello .btn button:hover
+{
+    background-color: #EC2403;
+}
+
+/*Service Style*/
+.services .ServiceContainer
+{
+    background-color: #F1F1F1;
+    padding: 25px 0
+}
+.services .ServiceContainer .ServiceCaption h2
+{
+    font-size: 200%
+}
+
+/*parts of service section style*/
+.services .ServiceContainer .ServiceTypes
+{
+    width: 80%;
+    padding: 20px 0;
+}
+.services .ServiceContainer .ServiceTypes .service
+{
+    transition: background-color 3s;
+    padding: 20px 10px;
+    
+}
+.services .ServiceContainer .ServiceTypes .service img
+{
+    transition: transform 3s;
+}
+.services .ServiceContainer .ServiceTypes .service:hover
+{
+    background-color: #fff;
+}
+.services .ServiceContainer .ServiceTypes .service:hover img
+{
+    transform: scale(1.1)
+}
+.services .ServiceContainer .ServiceTypes .service h3
+{
+    font-size: 130%
+}
+.services .ServiceContainer .ServiceTypes .service p
+{
+    line-height: 150%;
+}
+.portfolio .portfolioContainer h2
+{
+    font-size: 200%
+}
+.portfolio .portfolioContainer .portfolioList button
+{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+.portfolio .portfolioContainer .portfolioList button
+{
+    font-size: 120%
+}
+.portfolio .portfolioContainer  .portfolioImages
+{
+    width: 80%;
+    padding-top: 20px;
+}
+.portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace .portfolioImageLayer .portfolioImage .portfolioImageLayer1
+{
+    top: 0;
+    background-color: #7c7c7c6b;
+    opacity: 0;
+    transition: opacity 1s   
+}
+ 
+ .portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace .portfolioImageLayer .portfolioImage .portfolioImageLayer1:hover
+ {
+     opacity: 1;
+ }
+ .portfolio .portfolioContainer .portfolioImages .portfolioUnderSpace
+ {
+     padding: 10px 0;
+     width: 30%;
+ }
+
+ /*Count details style*/
+.countDetails 
+ {
+     background-color:#F1F1F1
+ }
+ .countDetails .count
+ {
+    padding: 30px 0;
+    font-size: 160%;
+ }
+
+ /*testimonial style*/
+ .testimonial
+ {
+     margin: 20px 0
+ }
+.testimonial .client
+{
+    width: 60%;
+    background: linear-gradient(135deg, #FF305B 20%, #F1F1F1 20%);
+    border-radius: 1%;
+    height: 300px;
+    overflow: hidden;
+}
+.testimonial .client img
+{
+    border-radius: 50%;
+    top: 18%;
+    left: 8%;
+    width: 13%;
+}
+.testimonial .client .clientInfo
+{
+    width: 65%;
+    text-align: justify;
+    top: 15%;
+    left: 25%;
+    line-height: 200%;
+}
+.testimonial .client .clientInfo h3
+{
+    font-size: 150%;
+}
+.testimonial .client .clientInfo a
+{
+    color: #777777;
+}
+.testimonial .client .clientInfo .fa-location-dot
+{
+    color: #777777;
+}
+.testimonial .client .clientInfo p
+{
+    line-height: 150%;
+    font-size: 120;
+}
+.testimonial .client .clientInfo .fa-star
+{
+    color: #F1C30D;
+}
+
+/*blog style*/
+.blog
+{
+    margin-top: 20px;
+}
+
+.blog .blogContainer
+{
+    background-color: #F1F1F1
+}
+.blog .blogContainer .blogSections
+{
+    width: 80%;
+    align-items: center;
+}
+.blog .blogContainer .blogSections .blogContent
+{
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.blog .blogContainer .blogSections .blogContent div
+{
+    padding: 5px;
+}
+
+.blog .blogContainer .blogSections .blogContent h3 a,
+.blog .blogContainer .blogSections .blogContent h4 a
+{
+    color: #000;
+}
+
+.blog .blogContainer .blogSections .blogContent iframe
+{
+    height: 5%;
+}
+
+/*cotact style*/
+.contact .contactForm form
+{
+    width: 90%
+}
+.contact .contactForm form input,
+.contact .contactForm form textarea
+{
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: #CCCCCC;
+}
+.contact .contactForm form .name,
+.contact .contactForm form .email
+{
+    width: 45%;
+}
+.contact .contactForm form .btnSub
+{
+    border-color: #FF305B
+}
+.contact .contactForm form .btnSub:hover
+{
+    background-color: #EC2403;
+    border-color: #EC2403;
+}
+
+/*footer style*/
+.footer
+{
+    background-color: #333333;
+    padding: 20px;
+    font-weight: 600;
+}
+.footer .SocialIcons i
+{
+    padding: 0 10px;
+}
+.footer div
+{
+    padding:10px 0;
+}
+
